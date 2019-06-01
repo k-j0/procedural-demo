@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\PostProcessing">
+      <UniqueIdentifier>{4f9ae0ca-4dea-4bb0-b1e5-e12388b642e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lighting">
+      <UniqueIdentifier>{a4681cd7-f0fd-46b4-9d72-6a5b9db12a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{a98e8170-a079-492f-ad1c-5ce0bd0b8675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\PostProcessing">
+      <UniqueIdentifier>{bdcb81e1-2692-4ccc-8269-8b15bbd2fe7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Geometry">
+      <UniqueIdentifier>{0df8cb9f-0758-440d-9e0e-6433d4e1be67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Depth">
+      <UniqueIdentifier>{e78cac88-21d4-4dd4-93e4-70a0216f0275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Depth">
+      <UniqueIdentifier>{ef7349dc-c9e4-46a1-875c-43504fb1b330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Terrain">
+      <UniqueIdentifier>{1f131891-756d-4339-99a3-f89633f8ca71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Terrain">
+      <UniqueIdentifier>{d82072eb-91b6-4e22-b29c-750aa4ff0789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Files">
+      <UniqueIdentifier>{548f8ffd-0ca7-4e54-af74-a067ca695146}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessingPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessingShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LitShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourGradingShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TonemappingShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PPTextureShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GaussianBlurShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BloomShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendedLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfiniteTerrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heightmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuinsMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuinBlockMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuinsBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessingPass.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessingShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourGradingShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultShader.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendedLight.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="LitShader.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="TonemappingShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="PPTextureShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="AppGlobals.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussianBlurShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="BloomShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="CombinationShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareMesh.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationShader.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthShader.h">
+      <Filter>Header Files\Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainMesh.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="InfiniteTerrain.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Heightmap.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RuinsMap.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RuinBlockMesh.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RuinsBlock.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWriter.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="colourgrading_fs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="postprocessing_fs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="postprocessing_vs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="tonemapping_fs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="default_fs.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="default_vs.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="gaussian_fs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="bloom_fs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="combine_fs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_fs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_vs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="terrain_fs.hlsl">
+      <Filter>Resource Files\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="ruinblock_fs.hlsl">
+      <Filter>Resource Files\Terrain</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
